@@ -3,7 +3,7 @@ name: 领红包
 # https://docs.github.com/cn/actions/reference/events-that-trigger-workflows#workflow_dispatch
 on:
   # 手动触发
-  workflow_dispatch:
+  #workflow_dispatch:
   # 定时任务
   schedule:
     # https://crontab.guru/
@@ -14,7 +14,7 @@ on:
     #         │ │ │ ┌──── month (1 - 12 or JAN-DEC)
     #         │ │ │ │ ┌── day of the week (0 - 6 or SUN-SAT)
     #         │ │ │ │ │
-    - cron: '45 2 * * *'
+    - cron: '0 11 * * *'
 
 jobs:
   start:
